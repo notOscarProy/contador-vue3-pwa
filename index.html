@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Metadata para PWA -->
+    <!-- Modifica el color de la barra de estado ANDROID -->
+    <meta name="theme-color" content="#41b883">
+    <!-- Optimización de SEO -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <!-- Modificar la barra de estado IOS -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>Contador VUE 3</title>
+    <!-- Iconos -->
+    <link rel="shortcut icon" href="./resources/icon_x512.png" type="image/png">
+    <link rel="apple-touch-icon" href="./resources/favicon.png">
+    <link rel="apple-touch-startup-image" href="./resources/favicon.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app" class="app">
+        <h1>{{title}}</h1>
+        <h3 class="count">{{count}}</h3>
+        <div class="button">
+            <button @click="modCount(-1)">-</button>
+            <button @click="modCount(1)">+</button>
+        </div>
+    </div>
+
+    <script src="./load.js"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/mount.js"></script>
+</body>
+</html>

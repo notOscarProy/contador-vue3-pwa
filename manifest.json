@@ -1,0 +1,49 @@
+{
+  "name": "Contador VUE 3",
+  "short_name": "Contador",
+  "description": "Contador App Vue3 es una aplicación  que forma parte de una serie de pequeños proyectos.",
+  "background_color": "#35494e",
+  "theme_color": "#41b883",
+  "start_url": "./?umt_source-web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./resources/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./resources/icon_x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

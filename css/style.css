@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.app{
+    display: block;
+    text-align: center;
+}
+body,html{
+    background-color: #35495e;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.count{
+    font-size: 2rem;
+}
+button{
+    background-color: #41b883;
+    border: none;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #379c6f;
+}
